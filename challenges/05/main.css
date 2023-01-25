@@ -1,7 +1,13 @@
 /* Use flexbox to display the divs on one row in the center of the container */
-
+* {
+  box-sizing: border-box;
+}
 body {
   border: 5px solid red;
+  height: 800px;
+  border: 5px solid red;
+  display: flex;
+  justify-content: center;
 }
 
 div {
